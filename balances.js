@@ -61,7 +61,6 @@ function getLines(options, callback) {
             info.lines.forEach(function(l) {
                 var currency = l.currency;
                 var balance = l.balance;
-                console.log(currency);
 
                 // Check for demurrage currency
                 if (currency.substring(0,2) === '01') {
