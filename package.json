@@ -1,0 +1,17 @@
+{
+  "name": "balances",
+  "version": "1.0.0",
+  "description": "Show aggregated balances across multiple accounts",
+  "main": "balances.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Reed Rosenbluth",
+  "license": "ISC",
+  "dependencies": {
+    "async": "^0.9.0",
+    "colors": "^1.0.3",
+    "money": "^0.2.0",
+    "ripple-lib": "^0.10.0"
+  }
+}
